@@ -4,88 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#8b5cf6">
-    <meta name="description" content="YOGDPS — Your Own Geometry Dash Private Server. Build. Customize. Rule Your GDPS.">
-    <title>YOGDPS — Your Own Geometry Dash Private Server</title>
+    <meta name="description" content="YOGDPS — crie, personalize e administre seu próprio Geometry Dash Private Server.">
+    <title>YOGDPS — Build. Customize. Rule Your GDPS.</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="app-shell">
         <header id="navbar-root"></header>
-
-        <main class="hero" id="main-content">
-            <section class="hero-content" aria-labelledby="hero-title">
-                <span class="eyebrow">YOUR OWN GEOMETRY DASH PRIVATE SERVER</span>
-                <h1 id="hero-title">Build. Customize.<br><span>Rule Your GDPS.</span></h1>
-                <p>
-                    Uma plataforma para criar, configurar e administrar seu próprio GDPS
-                    com uma experiência moderna, organizada e escalável.
-                </p>
-
-                <div class="hero-actions">
-                    <a class="button button-primary" href="#">Começar agora</a>
-                    <a class="button button-secondary" href="#features">Conhecer a plataforma</a>
-                </div>
-            </section>
-
-            <section class="hero-preview" aria-label="Prévia da plataforma">
-                <div class="preview-window">
-                    <div class="preview-topbar">
-                        <span></span><span></span><span></span>
+        <main>
+            <section class="hero container">
+                <div class="hero-content">
+                    <span class="eyebrow">YOUR OWN GEOMETRY DASH PRIVATE SERVER</span>
+                    <h1>Seu GDPS.<br><span>Seu controle.</span></h1>
+                    <p>O YOGDPS transforma a criação e administração de um Geometry Dash Private Server em uma experiência simples, organizada e escalável.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="pages/auth/index.html">Começar agora <span>→</span></a>
+                        <a class="button button-secondary" href="pages/docs/index.html">Explorar documentação</a>
                     </div>
-                    <div class="preview-body">
-                        <aside class="preview-sidebar">
-                            <div class="preview-logo-mark">Y</div>
-                            <div class="preview-line active"></div>
-                            <div class="preview-line"></div>
-                            <div class="preview-line"></div>
-                            <div class="preview-line"></div>
-                        </aside>
-                        <div class="preview-main">
-                            <div class="preview-heading"></div>
-                            <div class="preview-grid">
-                                <div class="preview-card"></div>
-                                <div class="preview-card"></div>
-                                <div class="preview-card"></div>
-                            </div>
-                            <div class="preview-panel"></div>
+                    <div class="hero-trust"><span>●</span> Arquitetura modular <span>•</span> Mobile First <span>•</span> Preparado para Supabase</div>
+                </div>
+                <div class="hero-preview" aria-hidden="true">
+                    <div class="dashboard-preview">
+                        <div class="preview-sidebar"><div class="mini-logo">Y</div><i></i><i class="active"></i><i></i><i></i><i></i></div>
+                        <div class="preview-content">
+                            <div class="preview-top"><div><small>Dashboard</small><strong>Olá, Creator 👋</strong></div><div class="avatar">C</div></div>
+                            <div class="preview-stats"><div><small>GDPS ativos</small><b>3</b><em>+1 este mês</em></div><div><small>Players</small><b>1,284</b><em>+18.4%</em></div></div>
+                            <div class="preview-chart"><div class="chart-line"></div><span>Atividade do servidor</span></div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section class="section container" id="features">
+                <div class="section-heading"><span class="eyebrow">PLATAFORMA</span><h2>Tudo em um só lugar.</h2><p>Uma base feita para crescer junto com seu GDPS.</p></div>
+                <div class="feature-grid">
+                    <article class="feature-card"><span class="feature-icon">◆</span><h3>GDPS Builder</h3><p>Configure um servidor através de um fluxo guiado, sem precisar organizar tudo manualmente.</p></article>
+                    <article class="feature-card"><span class="feature-icon">◈</span><h3>Dashboard</h3><p>Tenha uma visão central dos seus servidores, players, níveis e configurações.</p></article>
+                    <article class="feature-card"><span class="feature-icon">◇</span><h3>Administração</h3><p>Gerencie permissões e recursos com uma interface clara e preparada para equipes.</p></article>
+                    <article class="feature-card"><span class="feature-icon">↯</span><h3>API</h3><p>Arquitetura preparada para conectar o painel às APIs necessárias do Geometry Dash.</p></article>
+                    <article class="feature-card"><span class="feature-icon">▣</span><h3>Customização</h3><p>Nome, identidade, configurações e recursos do seu projeto em um único painel.</p></article>
+                    <article class="feature-card"><span class="feature-icon">∞</span><h3>Escalável</h3><p>O Core foi separado por módulos para permitir novos recursos sem reconstruir a plataforma.</p></article>
+                </div>
+            </section>
+
+            <section class="cta container"><div><span class="eyebrow">YOGDPS CORE</span><h2>Build. Customize. Rule Your GDPS.</h2><p>A fundação para uma nova geração de ferramentas de GDPS.</p></div><a class="button button-primary" href="pages/auth/index.html">Criar meu projeto →</a></section>
         </main>
-
-        <section class="features" id="features" aria-labelledby="features-title">
-            <div class="section-heading">
-                <span class="eyebrow">CORE PLATFORM</span>
-                <h2 id="features-title">Seu GDPS, sob seu controle.</h2>
-                <p>A base do YOGDPS foi pensada para crescer junto com o servidor.</p>
-            </div>
-
-            <div class="feature-grid">
-                <article class="feature-card">
-                    <div class="feature-icon">◆</div>
-                    <h3>Criação</h3>
-                    <p>Estrutura preparada para transformar configurações em um GDPS funcional.</p>
-                </article>
-                <article class="feature-card">
-                    <div class="feature-icon">◈</div>
-                    <h3>Controle</h3>
-                    <p>Um painel central para administrar os recursos do seu projeto.</p>
-                </article>
-                <article class="feature-card">
-                    <div class="feature-icon">◇</div>
-                    <h3>Escalabilidade</h3>
-                    <p>Arquitetura modular para adicionar novos recursos sem reconstruir tudo.</p>
-                </article>
-            </div>
-        </section>
-
-        <footer class="site-footer">
-            <span>YOGDPS</span>
-            <span>Build. Customize. Rule Your GDPS.</span>
-        </footer>
+        <footer class="site-footer container"><strong>YOGDPS</strong><span>Your Own Geometry Dash Private Server</span><span>GeoBR Owner Core</span></footer>
     </div>
-
     <script src="assets/js/main.js" defer></script>
 </body>
 </html>
